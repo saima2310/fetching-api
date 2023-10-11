@@ -1,0 +1,45 @@
+.app {
+  text-align: center;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  margin: 10px auto; /* Center user cards horizontally and create a gap between them */
+  padding: 10px;
+  max-width: 900px;
+  text-align: left;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.user-details {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto; /* Center user details horizontally */
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+  display: block;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #0073e6;
+}
+
+h2 {
+  color: #0073e6;
+}
